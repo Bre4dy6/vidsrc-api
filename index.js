@@ -8,12 +8,12 @@ const port = 3000
 
 app.get('/', (req, res) => {
     res.status(200).json({
-        intro: "Welcome to the unofficial vidsrc provider: check the provider website @ https://vidsrc.to/ ",
+        intro: "movie and show scrapper website made to fuck DMCA requests and premium subscriptions  ",
         routes: {
             movie: "/:movieTMDBid",
             show: "/:showTMDBid?s=seasonNumber&e=episodeNumber"
         },
-        author: "This api is developed and created by AijaZ"
+        author: "This api is developed and created by bre4d senpai"
     })
 })
 
